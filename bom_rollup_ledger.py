@@ -49,6 +49,8 @@ def identity(value: str) -> str:
 
 
 def rows(text: str, header: list[str]) -> list[dict[str, str]]:
+    if "\x00" in text:
+        raise ValueError("CSV contains NUL; printable part identifiers required")
     if len(text.encode("utf-8")) > MAX_BYTES:
         raise ValueError("CSV exceeds 2 MiB")
     reader = csv.DictReader(io.StringIO(text, newline=""), strict=True)
