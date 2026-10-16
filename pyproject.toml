@@ -1,0 +1,17 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "bom-rollup-ledger"
+version = "0.1.0"
+description = "Propagate exact demand through a multilevel CSV BOM, combine shared paths once at each part, and show leaf costs plus an edge-by-edge quantity ledger."
+requires-python = ">=3.10"
+license = {text = "MIT"}
+dependencies = []
+
+[project.scripts]
+bom-rollup-ledger = "bom_rollup_ledger:main"
+
+[tool.setuptools]
+py-modules = ["bom_rollup_ledger"]

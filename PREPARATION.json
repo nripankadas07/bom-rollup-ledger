@@ -1,0 +1,72 @@
+{
+  "project": "bom-rollup-ledger",
+  "observed": "2026-10-16T06:40:26.185551+00:00",
+  "platform": "linux",
+  "python": "3.12.14 (main, Aug 25 2026, 14:00:49) [Clang 22.1.3 ]",
+  "checks": [
+    {
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "-m",
+        "unittest",
+        "-q",
+        "test_behavior"
+      ],
+      "exit": 0,
+      "stdout": "",
+      "stderr": "----------------------------------------------------------------------\nRan 19 tests in 0.017s\n\nOK\n"
+    },
+    {
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "-m",
+        "compileall",
+        "-q",
+        "."
+      ],
+      "exit": 0,
+      "stdout": "",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "-m",
+        "pip",
+        "wheel",
+        "--no-deps",
+        "--wheel-dir",
+        "dist",
+        "."
+      ],
+      "exit": 0,
+      "stdout": "Processing ./.\n  Installing build dependencies: started\n  Installing build dependencies: finished with status 'done'\n  Getting requirements to build wheel: started\n  Getting requirements to build wheel: finished with status 'done'\n  Preparing metadata (pyproject.toml): started\n  Preparing metadata (pyproject.toml): finished with status 'done'\nBuilding wheels for collected packages: bom-rollup-ledger\n  Building wheel for bom-rollup-ledger (pyproject.toml): started\n  Building wheel for bom-rollup-ledger (pyproject.toml): finished with status 'done'\n  Created wheel for bom-rollup-ledger: filename=bom_rollup_ledger-0.1.0-py3-none-any.whl size=11232 sha256=705b93fd0b27bb9db4876ec19ae50d5c7618c2447b9043755a1d288d0aca57c6\n  Stored in directory: /tmp/pip-ephem-wheel-cache-aww_wdln/wheels/eb/17/d6/dab6e1f0e3f050ac62bc433f47594c752825538f6ad1b789ec\nSuccessfully built bom-rollup-ledger\n",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "/tmp/gh16-bom-rollup-ledger/bin/python",
+        "-m",
+        "pip",
+        "install",
+        "--no-deps",
+        "/workspace/scratch/5d784ffbbfd3/prepared-oct16/bom-rollup-ledger/dist/bom_rollup_ledger-0.1.0-py3-none-any.whl"
+      ],
+      "exit": 0,
+      "stdout": "Processing ./dist/bom_rollup_ledger-0.1.0-py3-none-any.whl\nInstalling collected packages: bom-rollup-ledger\nSuccessfully installed bom-rollup-ledger-0.1.0\n",
+      "stderr": "\n[notice] A new release of pip is available: 25.0.1 -> 26.2.1\n[notice] To update, run: /tmp/gh16-bom-rollup-ledger/bin/python -m pip install --upgrade pip\n"
+    },
+    {
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "verify_installed.py",
+        "/tmp/gh16-bom-rollup-ledger/bin/python"
+      ],
+      "exit": 0,
+      "stdout": "{\"installed_command\": \"bom-rollup-ledger\", \"cases\": 6, \"module_bytes_match_source\": true, \"outside_checkout\": true, \"python\": \"Python 3.12.14\"}\n",
+      "stderr": ""
+    }
+  ],
+  "runtime_dependencies": [],
+  "remote_ci": "NOT_YET_PUBLISHED"
+}

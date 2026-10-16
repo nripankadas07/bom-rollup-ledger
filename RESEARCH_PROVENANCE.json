@@ -1,0 +1,149 @@
+[
+  {
+    "full": "inventree/InvenTree",
+    "url": "https://github.com/inventree/InvenTree",
+    "stars": 7717,
+    "default_branch": "master",
+    "pushed_at": "2026-10-16T04:54:37Z",
+    "updated_at": "2026-10-16T04:47:40Z",
+    "archived": false,
+    "license": "MIT",
+    "description": "Open Source Inventory Management System",
+    "observed": "2026-10-16T06:07:57.220Z",
+    "readme": {
+      "path": "README.md",
+      "sha": "5295f4fb9c67cec437a3925487386b76ffca5a36"
+    },
+    "issues": [
+      {
+        "number": 13023,
+        "title": "[bug] Handle length limitation for \"notes\" fields",
+        "url": "https://github.com/inventree/InvenTree/pull/13023",
+        "pull_request": true
+      },
+      {
+        "number": 13020,
+        "title": "fix(frontend): remove jumps in data tables when navigating",
+        "url": "https://github.com/inventree/InvenTree/pull/13020",
+        "pull_request": true
+      },
+      {
+        "number": 13019,
+        "title": "chore(deps): bump the dependencies group across 1 directory with 22 updates",
+        "url": "https://github.com/inventree/InvenTree/pull/13019",
+        "pull_request": true
+      },
+      {
+        "number": 13018,
+        "title": "New Crowdin updates",
+        "url": "https://github.com/inventree/InvenTree/pull/13018",
+        "pull_request": true
+      },
+      {
+        "number": 12996,
+        "title": "add support for python 3.15 and move docker image to it",
+        "url": "https://github.com/inventree/InvenTree/pull/12996",
+        "pull_request": true
+      }
+    ],
+    "observation_scope": "Metadata, current README and up to five current issue/PR entries inspected; not exhaustive issue history or a competitor execution benchmark."
+  },
+  {
+    "full": "INTI-CMNB/KiBot",
+    "url": "https://github.com/INTI-CMNB/KiBot",
+    "stars": 753,
+    "default_branch": "master",
+    "pushed_at": "2026-10-15T16:20:14Z",
+    "updated_at": "2026-10-12T23:57:28Z",
+    "archived": false,
+    "license": "AGPL-3.0",
+    "description": "KiCad automation utility",
+    "observed": "2026-10-16T06:08:19.503Z",
+    "readme": {
+      "path": "README.md",
+      "sha": "f9f15ac3b7eece5ff28e6282e0416668cfc4da03"
+    },
+    "issues": [
+      {
+        "number": 956,
+        "title": "[BUG] blender_export: transparent_background removes the environment light (metals render black) and directional light positions are silently ignored",
+        "url": "https://github.com/INTI-CMNB/KiBot/issues/956",
+        "pull_request": false
+      },
+      {
+        "number": 925,
+        "title": "[FEATURE][KiCAD/KiBOT] Update of KiBOT v2_k9@latest image to KiCAD 9.0.9 release",
+        "url": "https://github.com/INTI-CMNB/KiBot/issues/925",
+        "pull_request": false
+      },
+      {
+        "number": 917,
+        "title": "[FEATURE] Hugo-based project documentation site integrating KiBot outputs",
+        "url": "https://github.com/INTI-CMNB/KiBot/issues/917",
+        "pull_request": false
+      },
+      {
+        "number": 882,
+        "title": "[FEATURE] KiRi with svn",
+        "url": "https://github.com/INTI-CMNB/KiBot/issues/882",
+        "pull_request": false
+      },
+      {
+        "number": 874,
+        "title": "[HOW] Best practice to avoid DRC/ERC errors due to different KiCAD versions",
+        "url": "https://github.com/INTI-CMNB/KiBot/issues/874",
+        "pull_request": false
+      }
+    ],
+    "observation_scope": "Metadata, current README and up to five current issue/PR entries inspected; not exhaustive issue history or a competitor execution benchmark."
+  },
+  {
+    "full": "hildogjr/KiCost",
+    "url": "https://github.com/hildogjr/KiCost",
+    "stars": 627,
+    "default_branch": "master",
+    "pushed_at": "2026-07-08T14:46:35Z",
+    "updated_at": "2026-10-13T06:37:39Z",
+    "archived": false,
+    "license": "MIT",
+    "description": "Build cost spreadsheet for a KiCad project.",
+    "observed": "2026-10-16T06:07:57.104Z",
+    "readme": {
+      "path": "README.md",
+      "sha": "c0935d33174a2419132b1903c4735a4bd013d532"
+    },
+    "issues": [
+      {
+        "number": 586,
+        "title": "complainig about nexar even though it is excluded",
+        "url": "https://github.com/hildogjr/KiCost/issues/586",
+        "pull_request": false
+      },
+      {
+        "number": 584,
+        "title": "Error with digikey# column",
+        "url": "https://github.com/hildogjr/KiCost/issues/584",
+        "pull_request": false
+      },
+      {
+        "number": 578,
+        "title": "Digikey not working anymore (error 401)",
+        "url": "https://github.com/hildogjr/KiCost/issues/578",
+        "pull_request": false
+      },
+      {
+        "number": 576,
+        "title": "Add B\u00fcrklin as a distributor",
+        "url": "https://github.com/hildogjr/KiCost/issues/576",
+        "pull_request": false
+      },
+      {
+        "number": 575,
+        "title": "Add RS Components as a distributor",
+        "url": "https://github.com/hildogjr/KiCost/issues/575",
+        "pull_request": false
+      }
+    ],
+    "observation_scope": "Metadata, current README and up to five current issue/PR entries inspected; not exhaustive issue history or a competitor execution benchmark."
+  }
+]
