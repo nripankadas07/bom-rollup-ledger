@@ -1,0 +1,6 @@
+parent,component,quantity
+R,A,2
+R,B,3
+A,S,4
+B,S,5
+S,L,0.1
